@@ -1,0 +1,29 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  border: 2px solid black;
+  width: 400px;
+  padding: 50px;
+}
+
+.container p{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.container button{
+    padding: 10px 50px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+}
